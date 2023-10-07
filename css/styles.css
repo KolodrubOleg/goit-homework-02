@@ -49,13 +49,6 @@ font-weight: 500;
     color: #434455;
 }
 
-        .contact-link:hover {
-            color: #404bbf;
-        }
-    
-        .contact-link:focus {
-            color: #404bbf;
-        }
             .address-block {
             
                     color: var(--SLATE, #434455);
