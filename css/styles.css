@@ -1,0 +1,286 @@
+body {
+    font-family: Roboto,Raleway;
+    color: #2E2F42;
+    background-color: #FFF;
+}
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+    
+
+
+.logo-text {
+    color: #2e2f42;
+}
+
+
+.page-nav{
+    display: inline-flex;
+        gap: 40px;
+    padding-left: 347px;
+    padding-right:1045px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: inline-flex;
+        align-items: flex-start;
+        gap: 40px;
+}
+
+
+.page-link{
+color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    
+}
+
+.page-link:hover {
+    color: #404bbf;
+}
+
+.page-link:focus {
+    color: #404bbf;
+}
+
+
+.address-block {
+    color: var(--SLATE, #434455);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+}
+.section-button{
+    background-color: #2e2f42;
+    padding: 50px 0;
+   
+}
+
+.main-heading {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.main-button {
+    display: block;
+        padding: 16px 32px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 4px;
+            background: var(--IRIS, #4D5AE5);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+            color: var(--WHITE, #FFF);
+                font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0.64px;
+                margin: auto;
+    border-radius: 5px;
+}
+
+.main-button:hover,
+.main-button:focus {
+    background-color: #404BBF;
+}
+
+
+.section-benefits-heading{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+width: 264px;
+}
+.benefits-section-paragraph {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+   .benefits-list {
+    display: flex;
+        width: 264px;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        
+   }
+   /* Стилі для секції Team */
+   .section-team {
+       background-color: #F4F4FD;
+       text-align: center;
+       padding: 50px 0;
+       /* Задаємо відступи від верхнього і нижнього краю секції */
+   }
+
+   /* Стилі для заголовка секції */
+   .section-team-heading {
+       font-size: 36px;
+       line-height: 1.11;
+       text-align: center;
+       letter-spacing: 0.02em;
+       text-transform: capitalize;
+       color: #2e2f42;
+   }
+
+   /* Стилі для списку команди */
+   .team-list {
+       list-style: none;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       padding: 0;
+       weight:264;
+       height: 380;
+
+   }
+
+   /* Стилі для кожного члена команди */
+   .team-member {
+       background-color: #FFFFFF;
+       margin: 20px;
+       /* Задаємо відступи між членами команди */
+       padding: 24px;
+       /* Задаємо внутрішні відступи для кожного члена команди */
+       text-align: center;
+   }
+
+   /* Стилі для фото членів команди */
+   .team-member img {
+    display: inline-flex;
+        padding-bottom: 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        
+   }
+
+   /* Стилі для імені членів команди */
+   .team-member-name {
+       font-weight: 500;
+       font-size: 20px;
+       line-height: 1.2;
+       letter-spacing: 0.02em;
+       color: #2e2f42;
+   }
+
+   /* Стилі для посади членів команди */
+   .team-member-role {
+       font-size: 16px;
+       line-height: 1.5;
+       letter-spacing: 0.02em;
+       color: #434455;
+   }
+   /* Стилі для секції Portfolio */
+   .section-portfolio {
+       background-color: #F4F4FD;
+       text-align: center;
+       padding: 50px 0;
+       /* Задаємо відступи від верхнього і нижнього краю секції */
+   }
+
+   /* Стилі для заголовка секції */
+   .section-portfolio-heading {
+       font-size: 36px;
+       line-height: 1.11;
+       text-align: center;
+       letter-spacing: 0.02em;
+       text-transform: capitalize;
+       color: #2e2f42;
+   }
+
+   /* Стилі для списку портфоліо */
+   .portfolio-list {
+       list-style: none;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       padding: 0;
+   }
+
+   /* Стилі для кожного елемента портфоліо */
+   .portfolio-item {
+       background-color: #FFFFFF;
+       margin: 20px;
+       /* Задаємо відступи між елементами портфоліо */
+       padding: 20px;
+       /* Задаємо внутрішні відступи для кожного елемента портфоліо */
+       text-align: center;
+   }
+
+   /* Стилі для зображення елемента портфоліо */
+   .portfolio-item img {
+       max-width: 100%;
+       height: auto;
+       border-radius: 5px;
+       
+   }
+
+   /* Стилі для заголовка елемента портфоліо */
+   .portfolio-item-heading {
+       font-weight: 500;
+       font-size: 20px;
+       line-height: 1.2;
+       letter-spacing: 0.02em;
+       color: #2e2f42;
+   }
+
+   /* Стилі для опису елемента портфоліо */
+   .portfolio-item-description {
+       font-size: 16px;
+       line-height: 1.5;
+       letter-spacing: 0.02em;
+       color: #434455;
+   }
+   /* Стилі для футера */
+   .footer {
+       background-color: #2e2f42;
+       padding: 20px 0;
+       /* Задаємо відступи від верхнього і нижнього краю футера */
+       text-align: center;
+   }
+
+   /* Стилі для логотипу в футері */
+   .footer-logo {
+       font-family: "Raleway", sans-serif;
+       font-weight: 700;
+       font-size: 18px;
+       line-height: 1.17;
+       letter-spacing: 0.03em;
+       text-transform: uppercase;
+       color: #4d5ae5;
+       text-decoration: none;
+
+       /* Забираємо підкреслення посилання */
+   }
+
+   /* Стилі для span в логотипі */
+   .footer-logo span {
+       color: #f4f4fd;
+   }
+
+   /* Стилі для параграфу в футері */
+   .footer-paragraph {
+       line-height: 1.2;
+       color: #F4F4FD;
+       /* Застосовуємо колір змінної */
+       letter-spacing: 0.02em;
+   }
