@@ -1,9 +1,12 @@
 body {
-    font-family: "Roboto","Raleway", sans-serif;
+    font-family: "Roboto", "Raleway", sans-serif;
     color: #434455;
     background-color:#FFFFFF;
 }
-.logo {
+
+/*Header*/
+
+.header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -34,12 +37,12 @@ body {
 
 
 .page-link{
-color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Roboto;
+
+font-weight: 500;
     font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
     
 }
 
@@ -47,7 +50,7 @@ color: var(--NAVY-BLUE, #2E2F42);
     color: #404bbf;
 }
 
-contact-link:focus{
+.contact-link:focus{
     color: #404bbf;
 }
 
@@ -56,7 +59,7 @@ contact-link:focus{
     color: var(--SLATE, #434455);
         font-family: Roboto;
         font-size: 16px;
-        font-style: normal;
+
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.32px;
@@ -64,8 +67,25 @@ contact-link:focus{
 .section-button{
     background-color: #2e2f42;
     padding: 50px 0;
-   
+
 }
+   
+    .contact-link {
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #434455;
+        }
+    
+        .contact-link:hover {
+            color: #404bbf;
+        }
+    
+        .contact-link:focus {
+            color: #404bbf;
+}
+
+/*Section-button */
 
 .main-heading {
     font-size: 56px;
@@ -76,6 +96,7 @@ contact-link:focus{
 }
 
 .main-button {
+    font-family: "Roboto",sans-serif;
     display: block;
         padding: 16px 32px;
         align-items: flex-start;
@@ -84,9 +105,9 @@ contact-link:focus{
             background: var(--IRIS, #4D5AE5);
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
             color: var(--WHITE, #FFF);
-                font-family: Roboto;
+
                 font-size: 16px;
-                font-style: normal;
+                
                 font-weight: 500;
                 line-height: 24px;
                 letter-spacing: 0.64px;
@@ -100,16 +121,19 @@ contact-link:focus{
     background-color: #404BBF;
 }
 
+/*Section-Benefits*/
 
-.section-benefits-heading{
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
-width: 264px;
+
+.benefits-heading {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        width: 264px;
 }
-.benefits-section-paragraph {
+
+.benefits-paragraph {
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -189,6 +213,8 @@ width: 264px;
        color: #434455;
    }
    
+   /*Section-Portfolio*/
+
    .section-portfolio {
        background-color: #F4F4FD;
        text-align: center;
@@ -250,6 +276,8 @@ width: 264px;
        color: #434455;
    }
   
+/*Footer*/
+
    .footer-block{
        background-color: #2e2f42;
        padding: 20px 0;
@@ -271,7 +299,8 @@ width: 264px;
        
    }
 
-   
+
+
    .footer-logo-span {
        color: #f4f4fd;
    }
@@ -279,7 +308,7 @@ width: 264px;
 
    
    .footer-paragraph {
-       line-height: 1.2;
+       line-height: 1.5;
        color: #F4F4FD;
        
        letter-spacing: 0.02em;
