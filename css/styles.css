@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto,Raleway;
+    font-family: Roboto,Raleway,sans-serif;
     color: #2E2F42;
     background-color: #FFF;
 }
@@ -43,11 +43,11 @@ color: var(--NAVY-BLUE, #2E2F42);
     
 }
 
-.page-link:hover {
+.contact-link:hover {
     color: #404bbf;
 }
 
-.page-link:focus {
+contact-link:focus{
     color: #404bbf;
 }
 
@@ -92,6 +92,7 @@ color: var(--NAVY-BLUE, #2E2F42);
                 letter-spacing: 0.64px;
                 margin: auto;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .main-button:hover,
@@ -251,7 +252,7 @@ width: 264px;
        color: #434455;
    }
    /* Стилі для футера */
-   .footer {
+   .footer-block{
        background-color: #2e2f42;
        padding: 20px 0;
        /* Задаємо відступи від верхнього і нижнього краю футера */
@@ -273,9 +274,9 @@ width: 264px;
    }
 
    /* Стилі для span в логотипі */
-   .footer-logo span {
+   .footer-logo-span {
        color: #f4f4fd;
-   }
+    
 
    /* Стилі для параграфу в футері */
    .footer-paragraph {
