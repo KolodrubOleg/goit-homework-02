@@ -6,12 +6,13 @@ body {
 
 /*Header*/
 
+
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.54px;
     text-transform: uppercase;
     color: #4d5ae5;
 }
@@ -76,7 +77,11 @@ font-weight: 500;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-}
+    width: 496px;
+    margin-left: auto;
+        margin-right: auto;
+    }
+
 
 .main-button {
     font-family: "Roboto",sans-serif;
@@ -106,14 +111,23 @@ font-weight: 500;
 
 /*Section-Benefits*/
 
+.benefits-items {
+    display: flex;
+        width: 264px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        
+}
 
 .benefits-heading {
-    font-weight: 500;
+    color: var(--NAVY-BLUE, #2E2F42);
+        font-family: Roboto;
         font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-        width: 264px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.4px;
 }
 
 .benefits-paragraph {
@@ -121,24 +135,20 @@ font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-}
-   .benefits-list {
-    display: flex;
         width: 264px;
-        flex-direction: column;
-        align-items: center;
-        gap: 8px;
+}
+   
         
-   }
+   
+/*Section-Team */
 
    .section-team {
        background-color: #F4F4FD;
        text-align: center;
        padding: 50px 0;
+   
        
    }
-
-  
    .section-team-heading {
        font-size: 36px;
        line-height: 1.11;
@@ -157,6 +167,7 @@ font-weight: 500;
        padding: 0;
        weight:264;
        height: 380;
+    
 
    }
 
@@ -166,6 +177,13 @@ font-weight: 500;
        background-color: #FFFFFF;
        margin: 20px;
        padding: 24px
+   
+        padding-bottom: 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        display:inline-flex;
    }
 
    
@@ -226,12 +244,16 @@ font-weight: 500;
 
    
    .portfolio-item {
-       background-color: #FFFFFF;
-       margin: 20px;
-       
-       padding: 20px;
-
-       text-align: center;
+    display: flex;
+        width: 360px;
+        height: 420px;
+        padding-bottom: 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        flex-shrink: 0;
+        border: 1px solid var(--CORNFLOWER, #E7E9FC);
+            background: var(--WHITE, #FFF);
    }
 
    
