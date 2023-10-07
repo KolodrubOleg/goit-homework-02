@@ -5,9 +5,7 @@ body {
 }
 
 /* Header */
-.header-main {
-    border-radius: 16px 16px 0px 0px;
-}
+
 
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -61,7 +59,7 @@ body {
 /* Section-button */
 .section-button {
     background-color: #2e2f42;
-    padding: 50px 0;
+    
 }
 
 .main-heading {
@@ -92,12 +90,7 @@ body {
 }
 
 /* Section-Benefits */
-.benefits-items {
 
-    flex-direction: column;
-    
-    gap: 8px;
-}
 
 .benefits-heading {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -150,8 +143,7 @@ body {
 }
 
 .team-member img {
-    display: inline-flex;
-    flex-direction: column;
+    
     justify-content: center;
     align-items: center;
    
@@ -190,16 +182,13 @@ body {
 
 .portfolio-list {
     list-style: none;
-    
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0;
+  
 }
 
 .portfolio-item {
-    display: flex;
-    width: 360px;
-    height: 420px;
+
     padding-bottom: 0px;
     align-items: flex-start;
     
@@ -210,7 +199,7 @@ body {
 
 .portfolio-item img {
     max-width: 100%;
-    height: auto;
+   
     
 }
 
