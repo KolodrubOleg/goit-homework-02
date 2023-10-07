@@ -123,15 +123,15 @@ width: 264px;
         gap: 8px;
         
    }
-   /* Стилі для секції Team */
+
    .section-team {
        background-color: #F4F4FD;
        text-align: center;
        padding: 50px 0;
-       /* Задаємо відступи від верхнього і нижнього краю секції */
+       
    }
 
-   /* Стилі для заголовка секції */
+  
    .section-team-heading {
        font-size: 36px;
        line-height: 1.11;
@@ -141,7 +141,7 @@ width: 264px;
        color: #2e2f42;
    }
 
-   /* Стилі для списку команди */
+   
    .team-list {
        list-style: none;
        display: flex;
@@ -153,17 +153,15 @@ width: 264px;
 
    }
 
-   /* Стилі для кожного члена команди */
+   
+   
    .team-member {
        background-color: #FFFFFF;
        margin: 20px;
-       /* Задаємо відступи між членами команди */
-       padding: 24px;
-       /* Задаємо внутрішні відступи для кожного члена команди */
-       text-align: center;
+       padding: 24px
    }
 
-   /* Стилі для фото членів команди */
+   
    .team-member img {
     display: inline-flex;
         padding-bottom: 0px;
@@ -174,7 +172,7 @@ width: 264px;
         
    }
 
-   /* Стилі для імені членів команди */
+   
    .team-member-name {
        font-weight: 500;
        font-size: 20px;
@@ -183,22 +181,22 @@ width: 264px;
        color: #2e2f42;
    }
 
-   /* Стилі для посади членів команди */
+   
    .team-member-role {
        font-size: 16px;
        line-height: 1.5;
        letter-spacing: 0.02em;
        color: #434455;
    }
-   /* Стилі для секції Portfolio */
+   
    .section-portfolio {
        background-color: #F4F4FD;
        text-align: center;
        padding: 50px 0;
-       /* Задаємо відступи від верхнього і нижнього краю секції */
+       
    }
 
-   /* Стилі для заголовка секції */
+  
    .section-portfolio-heading {
        font-size: 36px;
        line-height: 1.11;
@@ -208,7 +206,7 @@ width: 264px;
        color: #2e2f42;
    }
 
-   /* Стилі для списку портфоліо */
+
    .portfolio-list {
        list-style: none;
        display: flex;
@@ -217,17 +215,17 @@ width: 264px;
        padding: 0;
    }
 
-   /* Стилі для кожного елемента портфоліо */
+   
    .portfolio-item {
        background-color: #FFFFFF;
        margin: 20px;
-       /* Задаємо відступи між елементами портфоліо */
+       
        padding: 20px;
-       /* Задаємо внутрішні відступи для кожного елемента портфоліо */
+
        text-align: center;
    }
 
-   /* Стилі для зображення елемента портфоліо */
+   
    .portfolio-item img {
        max-width: 100%;
        height: auto;
@@ -235,7 +233,7 @@ width: 264px;
        
    }
 
-   /* Стилі для заголовка елемента портфоліо */
+   
    .portfolio-item-heading {
        font-weight: 500;
        font-size: 20px;
@@ -244,22 +242,22 @@ width: 264px;
        color: #2e2f42;
    }
 
-   /* Стилі для опису елемента портфоліо */
+   
    .portfolio-item-description {
        font-size: 16px;
        line-height: 1.5;
        letter-spacing: 0.02em;
        color: #434455;
    }
-   /* Стилі для футера */
+  
    .footer-block{
        background-color: #2e2f42;
        padding: 20px 0;
-       /* Задаємо відступи від верхнього і нижнього краю футера */
+      
        text-align: center;
    }
 
-   /* Стилі для логотипу в футері */
+  
    .footer-logo {
        font-family: "Raleway", sans-serif;
        font-weight: 700;
@@ -270,19 +268,19 @@ width: 264px;
        color: #4d5ae5;
        text-decoration: none;
 
-       /* Забираємо підкреслення посилання */
+       
    }
 
-   /* Стилі для span в логотипі */
+   
    .footer-logo-span {
        color: #f4f4fd;
    }
     
 
-   /* Стилі для параграфу в футері */
+   
    .footer-paragraph {
        line-height: 1.2;
        color: #F4F4FD;
-       /* Застосовуємо колір змінної */
+       
        letter-spacing: 0.02em;
    }
