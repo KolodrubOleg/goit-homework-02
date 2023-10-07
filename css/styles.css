@@ -16,6 +16,7 @@ body {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     color: #4d5ae5;
+    line-height: 1.17;
 }
 
 .logo-text {
@@ -267,3 +268,7 @@ body {
 
 .footer-paragraph {
     line-height: 1.5
+    color#F4F4FD;
+    
+        letter-spacing: 0.02em;
+    }
