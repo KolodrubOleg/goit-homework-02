@@ -36,6 +36,10 @@ font-weight: 500;
     color: #2e2f42;
     
 }
+.page-link:hover,
+.page-link:focus {
+    color: #404bbf;
+}
 
 .contact-link:hover,
  .contact-link:focus {
