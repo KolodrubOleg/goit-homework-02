@@ -19,10 +19,10 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    letter-spacing: 0,03em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    line-height: 1.17;
+    line-height: 1.07;
 }
 
 .logo-text {
@@ -64,7 +64,7 @@ a {
     letter-spacing: 0.02em;
 }
 
-/* Section-button */
+/* Hero section */
 .section-button {
     background-color: #2e2f42;
 }
@@ -83,7 +83,7 @@ a {
     color: var(--WHITE, #FFF);
     font-size: 16px;
     font-weight: 500;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.04em;
 
     cursor: pointer;
@@ -94,7 +94,7 @@ a {
     background-color: #404BBF;
 }
 
-/* Section-Benefits */
+/* Section-Benefits 2 */
 
 
 .benefits-heading {
@@ -103,7 +103,7 @@ a {
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 1,2;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
@@ -114,7 +114,7 @@ a {
     color: #434455;
 }
 
-/* Section-Team */
+/* Section-Team 3 */
 
 .section-team {
     background-color: #F4F4FD;
@@ -124,7 +124,7 @@ a {
 
 .section-team-heading {
     font-size: 36px;
-    line-height: 1.2;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -151,7 +151,7 @@ a {
     color: #434455;
 }
 
-/* Section-Portfolio */
+/* Section-Portfolio 4 */
 .section-portfolio {
     background-color: #F4F4FD;
     text-align: center;
@@ -160,7 +160,7 @@ a {
 
 .section-portfolio-heading {
     font-size: 36px;
-    line-height: 1.2;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
 
