@@ -73,8 +73,8 @@ body {
 
 .main-button {
     font-family: "Roboto", sans-serif;
-    background: var(--IRIS, #4D5AE5);
-    color: var(--WHITE, #FFF);
+    background: #4D5AE5;
+    color:#FFF;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -92,7 +92,7 @@ body {
 
 
 .benefits-heading {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color:#2E2F42;
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -174,7 +174,7 @@ body {
 
 
     align-items: flex-start;
-    background: var(--WHITE, #FFF);
+    background: #FFF;
 }
 
 
