@@ -1,3 +1,23 @@
+.some-element {
+    position,
+
+        width,
+        height,
+        left,
+        top,
+        box-sizing,
+        display,
+        align-items,
+        padding,
+        flex-direction,
+        gap,
+        border-radius,
+        box-shadow,
+        order,
+        flex-grow,
+        border-bottom
+
+}
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
