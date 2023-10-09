@@ -68,8 +68,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-    margin-left: auto;
-    margin-right: auto;
+    
 }
 
 .main-button {
@@ -80,7 +79,7 @@ body {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
-    margin: auto;
+
     cursor: pointer;
 }
 
@@ -185,17 +184,13 @@ body {
 
 .portfolio-item {
 
-    padding-bottom: 0px;
+   
     align-items: flex-start;
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
 }
 
-.portfolio-item img {
-    max-width: 100%;
-   
-    
-}
+
+
 
 .portfolio-item-heading {
     font-weight: 500;
