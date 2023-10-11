@@ -20,7 +20,7 @@ font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+  
     color: #4d5ae5;
     line-height: 1.17;
 }
@@ -78,14 +78,14 @@ font-family: "Raleway", sans-serif;
 }
 
 .main-button {
- 
+font-family: "Roboto", sans-serif;
     background: var(--IRIS, #4D5AE5);
     color: var(--WHITE, #FFF);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-font-family: "Roboto", sans-serif;
+
     cursor: pointer;
 }
 
@@ -200,7 +200,7 @@ font-family: "Roboto", sans-serif;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+
     color: #4d5ae5;
 }
 
